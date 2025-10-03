@@ -6,20 +6,18 @@
 
 
 
-## 主要特性：
+## features：
 
 - wifi，蓝牙
 - flash，ram
 
 ## hardware：
 
-### 基本属性
+esp32c3-DecKitM-1：demoboard
 
-esp32c3-DecKitM-1：主控开发板
+esp32c3-fn4：mcu
 
-esp32c3-fn4：芯片
-
-- RISC-V 架构
+- RISC-V framework
 
 
 
@@ -29,7 +27,7 @@ SX1276：lora
 
 
 
-### 硬件引脚
+### pin
 
 ![ESP32-C3-DevKitM-1 管脚布局（搭载 ESP32-C3-MINI-1 模组，点击放大）](E:\32_project\ESP\ESP32\base\README.assets\esp32-c3-devkitm-1-v1-pinout.png)
 
@@ -49,15 +47,15 @@ menuconfig
 
 - 0923
 
-  创建新的工程
+  create new proj.
   
 - 0924
 
-  log功能
+  log function.
 
 - 0925
 
-  硬件开发板到手
+  get hardware.
 
 - 0926
 
@@ -75,6 +73,6 @@ menuconfig
 
 ## note
 
-- jtag接口
-- 容器
+- jtag
+- docker
 
